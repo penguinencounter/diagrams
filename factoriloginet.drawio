@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T22:53:21.884Z" agent="5.0 (X11; Ubuntu)" version="20.7.4" etag="cv45jpPjvSBJaTKDnqFu" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T22:56:57.336Z" agent="5.0 (X11; Ubuntu)" version="20.7.4" etag="tjc142YetAtFs4F8tkDu" type="github">
   <diagram id="26lFCRo36pw0p-zjy1sk" name="Page-1">
-    <mxGraphModel dx="1061" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="743" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,10 +75,16 @@
           <mxGeometry x="200" y="330" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kZU-nGg5YoeYxe2Th8oy-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZU-nGg5YoeYxe2Th8oy-24" target="kZU-nGg5YoeYxe2Th8oy-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="280" />
+              <mxPoint x="180" y="330" />
+              <mxPoint x="130" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="kZU-nGg5YoeYxe2Th8oy-24" value="&lt;div&gt;Ideal Count&lt;/div&gt;&lt;div&gt;(Buffer)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="270" width="80" height="60" as="geometry" />
+        <mxCell id="kZU-nGg5YoeYxe2Th8oy-24" value="Buffer TLow" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kZU-nGg5YoeYxe2Th8oy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="kZU-nGg5YoeYxe2Th8oy-25" target="kZU-nGg5YoeYxe2Th8oy-3">
           <mxGeometry relative="1" as="geometry" />
@@ -88,8 +94,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZU-nGg5YoeYxe2Th8oy-25" value="&lt;div&gt;Subtract&lt;/div&gt;(id - sto)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kZU-nGg5YoeYxe2Th8oy-25" value="Thresh. Switch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="105" y="345" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kZU-nGg5YoeYxe2Th8oy-33" value="Storage" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kZU-nGg5YoeYxe2Th8oy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZU-nGg5YoeYxe2Th8oy-34" target="kZU-nGg5YoeYxe2Th8oy-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="330" />
+              <mxPoint x="130" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZU-nGg5YoeYxe2Th8oy-34" value="Buffer THigh" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kZU-nGg5YoeYxe2Th8oy-37" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=2.999999999999943;" vertex="1" parent="1">
+          <mxGeometry x="145" y="385" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
