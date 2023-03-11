@@ -1,25 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T05:54:55.766Z" agent="5.0 (X11; Ubuntu)" etag="y7JpdiJaFBAClWhug3NZ" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-11T05:55:49.677Z" agent="5.0 (X11; Ubuntu)" etag="eLv6eRpq937AlZa2RB5_" version="20.7.4" type="github">
   <diagram id="zuW3NtezVNNEAqgb-FU4" name="Page-1">
     <mxGraphModel dx="1114" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2Jry1OnzCSv7BFg8zUcB-1" value="&lt;div&gt;Base&lt;/div&gt;&lt;div&gt;(not able to commit here)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="200" height="80" as="geometry" />
+          <mxGeometry x="40" y="40" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2Jry1OnzCSv7BFg8zUcB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2Jry1OnzCSv7BFg8zUcB-2" target="zGLsr99Qgr7o7jnWKIe0-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2Jry1OnzCSv7BFg8zUcB-2" value="&lt;div&gt;Some team&#39;s fork&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zGLsr99Qgr7o7jnWKIe0-2" value="master" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zGLsr99Qgr7o7jnWKIe0-3" value="master" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2Jry1OnzCSv7BFg8zUcB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zGLsr99Qgr7o7jnWKIe0-3" target="zGLsr99Qgr7o7jnWKIe0-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="270" y="230" />
+              <mxPoint x="270" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="2Jry1OnzCSv7BFg8zUcB-5" value="&lt;div&gt;Pull request&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2Jry1OnzCSv7BFg8zUcB-4" vertex="1" connectable="0">
           <mxGeometry x="0.08" y="3" relative="1" as="geometry">
-            <mxPoint x="-28" y="3" as="offset" />
+            <mxPoint x="3" y="-8" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="2Jry1OnzCSv7BFg8zUcB-2" value="&lt;div&gt;Some team&#39;s fork&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="160" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zGLsr99Qgr7o7jnWKIe0-2" value="master" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
